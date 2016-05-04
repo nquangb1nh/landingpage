@@ -71,13 +71,26 @@ li > img {
 .links {
 	float: right;
 	margin-top: 23px;
+	text-decoration: none;
 }
 
 .links > li {
 	display: inline-block;
+	margin-left: 20px;
 }
 
-.top-nav .content > .active {
-	color: #4c5058;
+.top-nav .links > .active a {
+	color: #F15B2A;
     font-weight: 500;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+	transition: color 0.5s ease;
+}
+
+a:hover {
+	color: #F15B2A;
+;
 }
