@@ -1,0 +1,56 @@
+body {
+	background-color: LightGray;
+}
+
+div {
+	border: 1px solid Chocolate;
+}
+
+/*
+.nav-bar {
+	background-color: white;
+	height: 100%;
+}
+
+.nav-bar > .content {
+	margin: 0 auto;
+}
+
+a:link {
+	text-decoration: none;
+	color: Gray;
+}
+
+a:visited {
+	color: Gray;
+}
+
+li {
+	display: inline;
+	list-style: none;
+	padding-right: 40px;
+	margin-top: auto;
+	margin-bottom: auto;
+	line-height: 30px;
+}
+
+ul {
+	text-align: right;
+	vertical-align: middle;
+}
+
+li > img {
+	float: left;
+	width: 30px;
+}
+*/
+
+.top-nav {
+	background-color: white;
+}
+
+.top-nav > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
