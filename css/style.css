@@ -1,6 +1,11 @@
 html {
 	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
 }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  }
 
 body {
 	background-color: LightGray;
@@ -59,8 +64,8 @@ li > img {
 
 .top-nav > .content {
 	width: 970px;
-	height: 70px;
 	margin: 0 auto;
+	height: 70px;
 	padding: 0 15px;
 }
 
@@ -92,5 +97,37 @@ a {
 
 a:hover {
 	color: #F15B2A;
-;
+}
+
+.front-cover {
+	text-align: center;
+	background: url('../images/first-background.jpg') orange;
+	background-size: cover;
+	height: 600px;
+	color: white;
+}
+
+.introduction-small {
+	margin-bottom: 50px;
+}
+
+button {
+	text-shadow:none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	width: 200px;
+	background-color: #F15B2A;
+	color: white;
+	transition: color 1s ease;
+}
+
+button:hover {
+	background-color: white;
+	color: #F15B2A;
+}
+
+.front-cover > .content {
+	width: 970px;
+	margin: 200px auto;
 }
