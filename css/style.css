@@ -8,16 +8,13 @@ html {
   }
 
 body {
-	background-color: LightGray;
+	background-color: white;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
 }
 
-div {
-	border: 1px solid Chocolate;
-}
 
 /*
 .nav-bar {
@@ -60,6 +57,10 @@ li > img {
 
 .top-nav {
 	background-color: white;
+	border: 1px solid Lightgray;
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
 }
 
 .top-nav > .content {
@@ -129,5 +130,33 @@ button:hover {
 
 .front-cover > .content {
 	width: 970px;
-	margin: 200px auto;
+	margin: auto;
+	padding: 150px;
+}
+
+.cases {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.cases h2 {
+	font-size: 2em;
+	color: black;
+}
+
+.cases .devices {
+	float: left;
+	width:33.3333333%;
+	display: inline-block;
+	box-sizing: border-box;
+	height: 4em;
+}
+
+.cases .devices img {
+	width: 8em;
+}
+
+.cases .devices p {
+	font-size: 1.5em;
+	color: black;
 }
