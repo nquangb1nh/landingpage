@@ -142,14 +142,15 @@ button:hover {
 .cases h2 {
 	font-size: 2em;
 	color: black;
+
 }
 
 .cases .devices {
 	float: left;
-	width:33.3333333%;
+	width: 33.3333333%;
 	display: inline-block;
 	box-sizing: border-box;
-	height: 4em;
+	height: 300px;
 }
 
 .cases .devices img {
@@ -159,4 +160,23 @@ button:hover {
 .cases .devices p {
 	font-size: 1.5em;
 	color: black;
+}
+.footer {
+	border-top: 1px solid Lightgray;
+	height: 300px;
+	width: 700px;
+	margin-top: 350px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.footer ul {
+	width: 700px;
+	margin: auto;
+}
+
+.footer > ul > li {
+	display: inline;
+	float: left;
+	list-style: none;
 }
